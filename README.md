@@ -1,1 +1,1 @@
-Nth blog.
+# Just another blog.
