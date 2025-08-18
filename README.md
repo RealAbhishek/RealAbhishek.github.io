@@ -5,15 +5,11 @@
 ✉️ dubey.abhishek@zohomail.in
 💼 [LinkedIn](https://www.linkedin.com/in/realabhishek/) | 🐙 [GitHub](https://github.com/RealAbhishek)
 
-***
-
 ## 👨💻 Professional Summary
 
 Principal Software Engineer with 12+ years of experience designing and delivering **large-scale, distributed systems** and **enterprise software**. Highly proficient in **C++17/C++20**, **C\# (.NET)**, and **Python**, with deep expertise in **multithreading, concurrent programming, and performance tuning**.
 
 Proven ability to **architect scalable, low-latency applications** and drive **end-to-end delivery** of complex projects. Strong advocate for **Secure Coding** and **DevSecOps** with experience in **cloud technologies (AWS, Azure)**, **microservices architecture**, and **CI/CD pipelines**. Recognized for **leading teams with an agile mindset** and driving **innovation aligned with business goals**.
-
-***
 
 ## 🛠 Technical Skills
 
@@ -22,10 +18,8 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 - **Cloud \& DevOps:** AWS (EC2, S3, Lambda, RDS), Azure (Functions, Blob Storage), Docker, CI/CD (Jenkins, GitHub Actions)
 - **Frameworks:** STL, Boost, Qt, PyTorch, ANTLR4, LLVM/Clang
 - **Databases:** Oracle, SQL Server, PostgreSQL, MySQL, Redis, Snowflake, Teradata
-- **Security:** Threat Modeling, Secure Coding (OWASP), Static Analysis, OAuth2, JWT, TLS/AES Encryption
+- **Security:** Threat Modeling, Secure Coding (OWASP), Static Analysis, OAuth2, JWT, TLS/AES Encryption, Wazuh SIEM
 - **OS:** Windows, Linux, macOS
-
-***
 
 ## 💼 Professional Experience
 
@@ -42,8 +36,6 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 **Tech:** C++20, C\#/.NET, Python, Win32 API, Boost, Docker, Jenkins, AWS, Redis, ELK stack
 
-***
-
 ### **Software Engineering Manager II**
 
 **Quest Software, Hyderabad**
@@ -58,8 +50,6 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 **Tech:** C++17, Python, C\#, CMake, Jenkins, AWS, GTest, GMock
 
-***
-
 ### **Software Engineer**
 
 **Pariksha Labs Pvt Ltd, Gurgaon**
@@ -72,8 +62,6 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 **Tech:** C++, JavaScript, SOAP, XML, CMake, macOS SDK, HTML5
 
-***
-
 ### **Software Engineer**
 
 **THEwebjack Technologies Pvt Ltd, Noida**
@@ -85,8 +73,6 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 - Implemented **RBAC + audit trails** with unit testing and CI.
 
 **Tech:** C++ (Qt, STL), SQLite/MySQL, AWS RDS, JSON/REST APIs
-
-***
 
 ## 🎓 Education
 
