@@ -2,8 +2,8 @@
 
 📍 Hyderabad, India
 📞 +91-9718934081
-✉️ abhishekdubey666@gmail.com
-💼 [LinkedIn](#) | 🐙 [GitHub](#)
+✉️ dubey.abhishek@zohomail.in
+💼 [LinkedIn](https://www.linkedin.com/in/realabhishek/) | 🐙 [GitHub](https://github.com/RealAbhishek)
 
 ***
 
