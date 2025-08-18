@@ -15,7 +15,7 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 - **Programming:** C++ (C++17/20, STL, Templates, Multithreading), C\# (.NET), Python (Flask, NumPy/Pandas)
 - **Architecture:** Distributed Systems, Microservices, RESTful APIs, Design Patterns, SOA
-- **Cloud \& DevOps:** AWS (EC2, S3, Lambda, RDS), Azure (Functions, Blob Storage), Docker, CI/CD (Jenkins, GitHub Actions)
+- **Cloud & DevOps:** AWS (EC2, S3, Lambda, RDS), Azure (Functions, Blob Storage), Docker, CI/CD (Jenkins, GitHub Actions)
 - **Frameworks:** STL, Boost, Qt, PyTorch, ANTLR4, LLVM/Clang
 - **Databases:** Oracle, SQL Server, PostgreSQL, MySQL, Redis, Snowflake, Teradata
 - **Security:** Threat Modeling, Secure Coding (OWASP), Static Analysis, OAuth2, JWT, TLS/AES Encryption, Wazuh SIEM
@@ -72,4 +72,3 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 University of San Diego — *Expected 2026*
 - **Bachelor of Technology (B.Tech), Computer Science \& Engineering**
 JSS Academy of Technical Education, Noida — *2012*
-
