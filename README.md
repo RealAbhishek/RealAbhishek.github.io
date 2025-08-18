@@ -23,9 +23,7 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 ## 💼 Professional Experience
 
-### **Principal Software Engineer**
-
-**WorkFusion India Pvt Ltd, Hyderabad**
+### **Principal Software Engineer** - **WorkFusion India Pvt Ltd, Hyderabad**
 📅 Nov 2022 — Present
 
 - Architected **UI Automation Core integration** for Windows apps, achieving **2400% performance gain** and cutting manual QA effort by 50%.
@@ -36,9 +34,7 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 **Tech:** C++20, C\#/.NET, Python, Win32 API, Boost, Docker, Jenkins, AWS, Redis, ELK stack
 
-### **Software Engineering Manager II**
-
-**Quest Software, Hyderabad**
+### **Software Engineering Manager II** - **Quest Software, Hyderabad**
 📅 Apr 2017 — Nov 2022
 
 - Built and led a team of **14 developers**, achieving **100% retention** and consistent on-time releases.
@@ -50,9 +46,7 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 **Tech:** C++17, Python, C\#, CMake, Jenkins, AWS, GTest, GMock
 
-### **Software Engineer**
-
-**Pariksha Labs Pvt Ltd, Gurgaon**
+### **Software Engineer** - **Pariksha Labs Pvt Ltd, Gurgaon**
 📅 Apr 2015 — Apr 2017
 
 - Developed **Adobe Creative Cloud plugins** (InDesign, Illustrator, Photoshop) automating design workflows, reducing production time.
@@ -62,9 +56,7 @@ Proven ability to **architect scalable, low-latency applications** and drive **e
 
 **Tech:** C++, JavaScript, SOAP, XML, CMake, macOS SDK, HTML5
 
-### **Software Engineer**
-
-**THEwebjack Technologies Pvt Ltd, Noida**
+### **Software Engineer** - **THEwebjack Technologies Pvt Ltd, Noida**
 📅 Aug 2012 — Apr 2015
 
 - Built **cross-platform desktop apps** (Windows, Linux, macOS) with Qt framework.
