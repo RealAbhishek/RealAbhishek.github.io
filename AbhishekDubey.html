@@ -1,321 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Dubey - Resume</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.4;
-            color: #333;
-            background: white;
-            font-size: 12px;
-        }
-
-        .container {
-            max-width: 8.5in;
-            margin: 0 auto;
-            padding: 54px; /* 0.75 inches */
-            background: white;
-        }
-
-        @page {
-            size: letter;
-            margin: 54px; /* 0.75 inches all around */
-        }
-
-        @media print {
-            body { 
-                font-size: 11px;
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-            .container { 
-                padding: 0;
-                max-width: none;
-            }
-            .section { margin-bottom: 10px; }
-            .job { margin-bottom: 8px; }
-            .name { font-size: 24px; }
-            .location { font-size: 14px; }
-            .section-title { font-size: 14px; }
-            .job-title { font-size: 12px; }
-        }
-
-        /* Rest of your existing styles... */
-        .header {
-            text-align: center;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #2c3e50;
-        }
-
-        .name {
-            font-size: 26px;
-            font-weight: 700;
-            color: #2c3e50;
-            margin-bottom: 3px;
-        }
-
-        .location {
-            font-size: 15px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: #34495e;
-        }
-
-        .contact-info {
-            font-size: 11px;
-            color: #555;
-        }
-
-        .contact-info a {
-            color: #2980b9;
-            text-decoration: none;
-        }
-
-        .section {
-            margin-bottom: 12px;
-        }
-
-        .section-title {
-            font-size: 15px;
-            font-weight: 700;
-            color: #2c3e50;
-            margin-bottom: 6px;
-            padding-bottom: 2px;
-            border-bottom: 1px solid #bdc3c7;
-            text-transform: uppercase;
-        }
-
-        .summary {
-            text-align: justify;
-            line-height: 1.3;
-            margin-bottom: 8px;
-            font-size: 12px;
-        }
-
-        .skills {
-            line-height: 1.4;
-            font-size: 12px;
-        }
-
-        .skill-line {
-            margin-bottom: 3px;
-        }
-
-        .job {
-            margin-bottom: 10px;
-            page-break-inside: avoid;
-        }
-
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 3px;
-        }
-
-        .job-title {
-            font-weight: 700;
-            font-size: 13px;
-            color: #2c3e50;
-        }
-
-        .company {
-            font-weight: 600;
-            color: #34495e;
-            font-size: 12px;
-        }
-
-        .duration {
-            font-style: italic;
-            font-size: 11px;
-            color: #7f8c8d;
-        }
-
-        .job-duties {
-            margin-left: 0;
-            padding-left: 0;
-            font-size: 12px;
-        }
-
-        .job-duties li {
-            margin-bottom: 2px;
-            list-style: none;
-            position: relative;
-            padding-left: 12px;
-            line-height: 1.3;
-        }
-
-        .job-duties li:before {
-            content: "•";
-            color: #2980b9;
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-        }
-
-        .tech-stack {
-            font-weight: 600;
-            color: #333;
-            font-size: 11px;
-            margin-top: 3px;
-        }
-
-        .education {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 4px;
-            font-size: 12px;
-        }
-
-        .degree {
-            font-weight: 600;
-        }
-
-        .institution {
-            color: #7f8c8d;
-            font-style: italic;
-        }
-
-        .highlight {
-            font-weight: 600;
-            color: #2c3e50;
-        }
-    </style>
-</head>
-<body>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Abhishek Dubey – Resume</title>
+        <style>
+                    * { margin: 0; padding: 0; box-sizing: border-box; }
+                    body {
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    line-height: 1.45;
+                                    color: #222;
+                                    background: white;
+                                    font-size: 12px;
+                    }
+                    .container {
+                                    max-width: 8.5in;
+                                    margin: 0 auto;
+                                    padding: 48px 54px;
+                                    background: white;
+                    }
+                    @page { size: letter; margin: 54px; }
+                    @media print {
+                                    body { font-size: 11px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+                                    .container { padding: 0; max-width: none; }
+                                    .section { margin-bottom: 10px; }
+                                    .job { margin-bottom: 8px; }
+                    }
+                    .name { font-size: 26px; font-weight: 700; letter-spacing: 0.5px; color: #111; }
+                    .contact {
+                                    display: flex; flex-wrap: wrap; gap: 6px 16px;
+                                    margin-top: 4px; font-size: 11px; color: #444;
+                    }
+                    .contact a { color: #1a6db5; text-decoration: none; }
+                    .contact a:hover { text-decoration: underline; }
+                    hr { border: none; border-top: 1.5px solid #333; margin: 10px 0 8px; }
+                    .section { margin-bottom: 14px; }
+                    .section-title {
+                                    font-size: 13px; font-weight: 700; text-transform: uppercase;
+                                    letter-spacing: 0.8px; color: #111; border-bottom: 1px solid #bbb;
+                                    padding-bottom: 2px; margin-bottom: 7px;
+                    }
+                    .summary p { margin-bottom: 5px; font-size: 11.5px; }
+                    .skills-grid { display: grid; grid-template-columns: 130px 1fr; gap: 3px 8px; font-size: 11px; }
+                    .skill-label { font-weight: 700; color: #222; }
+                    .skill-value { color: #333; }
+                    .job { margin-bottom: 11px; }
+                    .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+                    .job-title { font-size: 12.5px; font-weight: 700; color: #111; }
+                    .job-company { font-size: 11.5px; color: #444; }
+                    .job-date { font-size: 11px; color: #666; white-space: nowrap; }
+                    .job ul { margin: 4px 0 4px 16px; }
+                    .job ul li { margin-bottom: 2px; font-size: 11px; }
+                    .tech { font-size: 10.5px; color: #555; margin-top: 3px; }
+                    .tech strong { color: #333; }
+                    .edu-item { margin-bottom: 6px; }
+                    .edu-degree { font-weight: 700; font-size: 11.5px; }
+                    .edu-school { font-size: 11px; color: #444; }
+                    .edu-date { font-size: 11px; color: #666; }
+                </style>
+    </head>
+    <body>
         <div class="container">
-        <div class="header">
-            <h1 class="name">Abhishek Dubey</h1>
-            <div class="location">Hyderabad, India</div>
-            <div class="contact-info">
-                📞 +91-9718934081 | ✉️ <a href="mailto:dubey.a">dubey.abhishek@zohomail.in</a> | 
-                💼 <a href="https://linkedin.com/in/RealAbhishek">LinkedIn</a> | 
-                🐙 <a href="https://github.com/RealAbhishek">GitHub</a>
-            </div>
-        </div>
 
-        <div class="section">
-            <h2 class="section-title">Professional Summary</h2>
-            <div class="summary">
-                Principal Software Engineer with 12+ years of experience designing and delivering <span class="highlight">large-scale, distributed systems</span> and enterprise software. Highly proficient in C++17/C++20, C# (.NET), and Python, with deep expertise in <span class="highlight">multithreading, concurrent programming</span>, and performance tuning. Proven ability to <span class="highlight">architect scalable, low-latency applications</span> and drive end-to-end delivery of complex projects. Strong advocate for <span class="highlight">Secure Coding</span> and <span class="highlight">DevSecOps</span> with experience in cloud technologies (<span class="highlight">AWS, Azure</span>), <span class="highlight">microservices architecture</span>, and <span class="highlight">CI/CD pipelines</span>. Recognized for leading teams with an agile mindset and <span class="highlight">driving innovation</span> that aligns with business goals.
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills">
-                <div class="skill-line"><span class="highlight">Programming:</span> C++ (C++17/20, STL, Templates, Multithreading), C# (.NET), Python (Flask, NumPy/Pandas)</div>
-                <div class="skill-line"><span class="highlight">Architecture:</span> Distributed Systems, Microservices, RESTful APIs, Design Patterns, SOA</div>
-                <div class="skill-line"><span class="highlight">Cloud & DevOps:</span> AWS (EC2, S3, Lambda, RDS), Azure (Functions, Blob Storage), Docker, CI/CD (Jenkins, GitHub Actions)</div>
-                <div class="skill-line"><span class="highlight">Frameworks:</span> STL, Boost, Qt, PyTorch, ANTLR4, LLVM/Clang</div>
-                <div class="skill-line"><span class="highlight">Databases:</span> Oracle, SQL Server, PostgreSQL, MySQL, Redis, Snowflake, Teradata</div>
-                <div class="skill-line"><span class="highlight">Security:</span> Threat Modeling, Secure coding (OWASP), Static Analysis, OAuth2, JWT, TLS/AES encryption</div>
-                <div class="skill-line"><span class="highlight">OS:</span> Windows, Linux, macOS</div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">Professional Experience</h2>
+                <div class="name">Abhishek Dubey</div>div>
+                <div class="contact">
+                            <span>📍 Hyderabad, India</span>
+                        <span>📞 +91-9718934081</span>
+                        <a href="mailto:to.abhishek.dubey@proton.me">✉️ to.abhishek.dubey@proton.me</a>a>
+                        <a href="https://www.linkedin.com/in/realabhishek" target="_blank">💼 LinkedIn</a>a>
+                        <a href="https://github.com/RealAbhishek" target="_blank">🐙 GitHub</a>a>
+                        <a href="https://adubey.me" target="_blank">🌐 Portfolio</a>a>
+                </div>div>
+        
+            <hr>
+        
+            <!-- PROFESSIONAL SUMMARY -->
+            <div class="section summary">
+                    <div class="section-title">Professional Summary</div>div>
+                    <p>Principal Software Engineer with 12+ years of experience designing and delivering large-scale, distributed systems and enterprise software. Highly proficient in <strong>C++17/C++20</strong> and <strong>Python</strong>, with deep expertise in multithreading, concurrent programming, performance tuning, and <strong>AI Agent development with LLMs</strong>.</p>
+                    <p>Proven ability to architect scalable, low-latency applications and drive end-to-end delivery of complex projects. Currently pursuing an <strong>M.S. in Cybersecurity Engineering</strong>strong> at the University of San Diego, with a focus on secure software design, threat modeling, and AI-native security tooling. Strong advocate for Secure Coding and DevSecOps with hands-on experience in cloud (AWS, Azure), microservices, and CI/CD pipelines.</p>
+            </div>div>
+        
+            <!-- TECHNICAL SKILLS -->
+            <div class="section">
+                    <div class="section-title">Technical Skills</div>div>
+                    <div class="skills-grid">
+                                <span class="skill-label">Programming:</span>
+                                <span class="skill-value">C++ (C++17/20, STL, Templates, Multithreading), Python (FastAPI, Flask, asyncio, NumPy/Pandas, LiteLLM)</span>
+                    
+                                <span class="skill-label">Architecture:</span>
+                                <span class="skill-value">Distributed Systems, Microservices, RESTful APIs, Design Patterns, SOA</span>
+                    
+                                <span class="skill-label">Cloud & DevOps:</span>
+                                <span class="skill-value">AWS (EC2, S3, Lambda, RDS), Azure (Functions, Blob Storage), Docker, CI/CD (Jenkins, GitHub Actions)</span>
+                    
+                                <span class="skill-label">Frameworks:</span>
+                                <span class="skill-value">STL, Boost, Qt, ANTLR4, LLVM/Clang, PyTorch</span>
+                    
+                                <span class="skill-label">Databases:</span>
+                                <span class="skill-value">Oracle, SQL Server, PostgreSQL, MySQL, Redis, Snowflake, Teradata</span>
+                    
+                                <span class="skill-label">Security:</span>
+                                <span class="skill-value">Threat Modeling, Secure Coding (OWASP), Static Analysis, OAuth2, JWT, TLS/AES Encryption, Snort, Splunk, Wazuh SIEM</span>
+                    
+                                <span class="skill-label">AI & LLMs:</span>
+                                <span class="skill-value">OpenAI API, Anthropic Claude, Gemini API, LiteLLM, AI Agent orchestration, asyncio/FastAPI pipelines</span>
+                    
+                                <span class="skill-label">OS:</span>
+                                <span class="skill-value">Linux (daily driver), Windows, macOS</span>
+                    </div>div>
+            </div>div>
+        
+            <!-- PROFESSIONAL EXPERIENCE -->
+            <div class="section">
+                    <div class="section-title">Professional Experience</div>div>
             
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Principal Software Engineer</span> | 
-                        <span class="company">WorkFusion India Private Limited, Hyderabad</span>
+                    <div class="job">
+                                <div class="job-header">
+                                                <div>
+                                                                        <div class="job-title">Principal Software Engineer</div>
+                                                                        <div class="job-company">WorkFusion India Pvt Ltd, Hyderabad</div>
+                                                </div>
+                                                    <div class="job-date">Nov 2022 – Present</div>
+                                </div>
+                                    <ul>
+                                                        <li>Architected UI Automation Core integration for Windows apps, achieving a <strong>2400% performance gain</strong> and cutting manual QA effort by 50% through targeted C++20/Win32 native optimization.</li>
+                                                    <li>Integrated LLVM/Clang static analysis into CI with C++17/20 guidelines, reducing code warnings by 60% and eliminating critical security vulnerabilities.</li>
+                                                    <li>Modernized build system with CMake + Jenkins CI/CD, reducing build times by 20% and boosting team productivity by 30%.</li>
+                                                    <li>Redesigned mission-critical .NET/C# RDP client with observability features for proactive issue detection.</li>
+                                                    <li>Delivered 5 on-time releases while mentoring 3 engineers under Agile methodology.</li>
+                                    </ul>
+                                <div class="tech"><strong>Stack:</strong> C++20, C#/.NET, Python, Win32 API, Boost, CMake, Docker, Jenkins, AWS, Redis, ELK Stack</div>
                     </div>
-                    <span class="duration">Nov 2022 — Present</span>
-                </div>
-                <ul class="job-duties">
-                    <li><span class="highlight">Architected</span> UI Automation Core integration for Windows applications, achieving <span class="highlight">2400% performance improvement</span> and reducing manual QA effort by 50% through low-level Windows API hooks and multithreaded event capture</li>
-                    <li>Improved code quality by integrating <span class="highlight">LLVM Clang static analysis</span> and enforcing C++17/C++20 guidelines, reducing code warnings by <span class="highlight">60%</span> and eliminating critical vulnerabilities through <span class="highlight">Secure Coding practices</span></li>
-                    <li>Modernized build ecosystem: upgraded to <span class="highlight">CMake</span> and integrated CI/CD pipelines, cutting build times by <span class="highlight">20%</span> and improving developer productivity by <span class="highlight">30%</span></li>
-                    <li>Redesigned mission-critical <span class="highlight">.NET/C# RDP client</span> with observability features for proactive issue detection</li>
-                    <li>Managed dual tech-stack product portfolio with <span class="highlight">Agile methodology</span>, delivering <span class="highlight">5 on-time releases</span> while mentoring team of 3 engineers</li>
-                </ul>
-                <div class="tech-stack">Technologies: C++20, C#/.NET, Python, Win32 API, Boost, Docker, Jenkins, AWS (EC2, S3), Redis, ELK stack</div>
-            </div>
-
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Software Engineering Manager II</span> | 
-                        <span class="company">Quest Software, Hyderabad, India</span>
+            
+                    <div class="job">
+                                <div class="job-header">
+                                                <div>
+                                                                    <div class="job-title">Software Engineering Manager II</div>
+                                                                    <div class="job-company">Quest Software (erwin, Inc.), Hyderabad</div>
+                                                </div>
+                                                <div class="job-date">Apr 2017 – Nov 2022</div>
+                                </div>
+                                <ul>
+                                                <li>Built and led a team of 14 engineers with <strong>100% retention</strong>strong> and consistent on-time delivery across 5+ years.</li>
+                                                <li>Architected a database abstraction layer supporting <strong>8 database engines</strong> (Oracle, SQL Server, PostgreSQL, Snowflake, Teradata, and more) for Microsoft integration.</li>
+                                                <li>Designed custom SQL parsers using ANTLR4 and Visual C++, enabling cross-database migrations with Data Vault 2.0 compliance.</li>
+                                                <li>Introduced Jenkins CI pipeline that reduced deployment time by <strong>70%</strong> and increased code coverage from 45% → 85%.</li>
+                                                <li>Refactored a legacy monolith into modular REST-based services, improving scalability and maintainability.</li>
+                                                <li>Championed OWASP Top 10 secure coding standards, significantly reducing vulnerability exposure.</li>
+                                </ul>
+                                <div class="tech"><strong>Stack:</strong> C++17, Python, C#, ANTLR4, CMake, Jenkins, AWS, GTest, GMock</div>
                     </div>
-                    <span class="duration">Apr 2017 — Nov 2022</span>
-                </div>
-                <ul class="job-duties">
-                    <li>Built and led high-performing team of <span class="highlight">14 developers</span> for enterprise database tools, achieving <span class="highlight">100% retention</span> and on-time delivery across major releases</li>
-                    <li><span class="highlight">Spearheaded strategic data integration project</span> with Microsoft: <span class="highlight">Architected</span> database abstraction layer enabling seamless integration of <span class="highlight">8 database engines</span> (Oracle, SQL Server, Azure Synapse, PostgreSQL, MySQL, Snowflake, Teradata) into erwin Data Modeling suite</li>
-                    <li>Designed custom <span class="highlight">SQL language parsers</span> using <span class="highlight">ANTLR4</span> and Visual C++ for multiple SQL dialects, handling complex syntax variations and enabling cross-platform database migrations with <span class="highlight">Data Vault 2.0</span> compliance</li>
-                    <li>Introduced <span class="highlight">CI pipeline</span> (Jenkins, MSBuild) with automated testing, reducing deployment time by <span class="highlight">70%</span> and boosting code coverage from <span class="highlight">45% to 85%</span> through <span class="highlight">"shift-left"</span> testing approach</li>
-                    <li><span class="highlight">Drove application modernization:</span> Refactored monolithic components into modular services with <span class="highlight">REST APIs</span>, improving scalability and enabling product reuse</li>
-                    <li>Mentored engineers on secure coding and <span class="highlight">threat modeling</span>, instituting <span class="highlight">OWASP Top 10</span> focused standards that significantly reduced security vulnerabilities</li>
-                </ul>
-                <div class="tech-stack">Technologies: C++17, Python, C#, CMake, Jenkins, AWS (EC2, S3), GTest, GMock</div>
-            </div>
-
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Software Engineer</span> | 
-                        <span class="company">Pariksha Labs Pvt Ltd, Gurgaon, India</span>
+            
+                    <div class="job">
+                                <div class="job-header">
+                                                <div>
+                                                                    <div class="job-title">Software Engineer</div>
+                                                                    <div class="job-company">Pariksha Labs Pvt Ltd, Gurgaon</div>
+                                                </div>
+                                                <div class="job-date">Apr 2015 – Apr 2017</div>
+                                </div>
+                                <ul>
+                                                <li>Built Adobe Creative Cloud plugins (InDesign, Illustrator, Photoshop) that automated design workflows and reduced production time.</li>
+                                                <li>Developed a template-driven batch processing system handling <strong>10,000+ graphic files/day</strong>, saving 200+ person-hours monthly.</li>
+                                                <li>Led a UI/UX redesign that improved task completion by 40% and reduced support tickets by 35%.</li>
+                                                <li>Optimized C++ image-processing algorithms — achieved <strong>3x faster export speeds</strong> and 50% memory reduction.</li>
+                                </ul>
+                                <div class="tech"><strong>Stack:</strong> C++, JavaScript, SOAP, XML, CMake, macOS SDK, HTML5</div>
                     </div>
-                    <span class="duration">Apr 2015 — Apr 2017</span>
-                </div>
-                <ul class="job-duties">
-                    <li>Developed <span class="highlight">4 custom plugins</span> for Adobe Creative Cloud (InDesign, Illustrator, Photoshop) using C++ and JavaScript, automating design workflows and reducing production time</li>
-                    <li>Implemented <span class="highlight">template-driven batch processing system</span> handling <span class="highlight">10,000+ graphic files daily</span>, saving <span class="highlight">200+ manual hours monthly</span> using <span class="highlight">design patterns</span> (Factory, Strategy) for dynamic extensibility</li>
-                    <li>Led <span class="highlight">UI/UX redesign</span> using Angular, improving user task completion by <span class="highlight">40%</span> and reducing support tickets by <span class="highlight">35%</span></li>
-                    <li>Optimized performance through CPU/memory profiling, achieving <span class="highlight">50% memory reduction</span> and <span class="highlight">3x faster</span> image export via efficient C++ algorithms</li>
-                </ul>
-                <div class="tech-stack">Technologies: C++, JavaScript, SOAP, XML, CMake, macOS SDK, HTML5</div>
-            </div>
-
-            <div class="job">
-                <div class="job-header">
-                    <div>
-                        <span class="job-title">Software Engineer</span> | 
-                        <span class="company">THEwebjack Technologies Pvt Ltd, Noida, India</span>
+            
+                    <div class="job">
+                                <div class="job-header">
+                                                <div>
+                                                                    <div class="job-title">Software Engineer</div>
+                                                                    <div class="job-company">THEwebjack Technologies Pvt Ltd, Noida</div>
+                                                </div>
+                                                <div class="job-date">Aug 2012 – Apr 2015</div>
+                                </div>
+                                <ul>
+                                                <li>Built cross-platform desktop applications (Windows, Linux, macOS) using the Qt framework.</li>
+                                                <li>Architected an offline-capable bookkeeping system with distributed sync over AWS RDS and REST APIs.</li>
+                                                <li>Integrated hardware interfaces (barcode scanners, printers) with thread-safe UI and database update pipelines.</li>
+                                                <li>Implemented RBAC, audit trails, unit testing, and CI from the ground up.</li>
+                                </ul>
+                                <div class="tech"><strong>Stack:</strong> C++ (Qt, STL), SQLite/MySQL, AWS RDS, JSON/REST APIs</div>
                     </div>
-                    <span class="duration">Aug 2012 — Apr 2015</span>
-                </div>
-                <ul class="job-duties">
-                    <li>Built <span class="highlight">cross-platform desktop applications</span> using Qt framework (C++) for Windows, Linux, and macOS</li>
-                    <li><span class="highlight">Architected</span> offline-capable bookkeeping system with <span class="highlight">distributed synchronization</span> across retail nodes using custom sync protocol with <span class="highlight">AWS RDS</span> and RESTful APIs for eventual consistency</li>
-                    <li>Integrated hardware interfaces (barcode scanners, receipt printers) with thread-safe UI and database updates</li>
-                    <li>Implemented <span class="highlight">role-based access control</span> and <span class="highlight">audit trails</span> with unit testing and basic CI</li>
-                </ul>
-                <div class="tech-stack">Technologies: C++ (Qt 5, STL), SQLite/MySQL, AWS RDS, JSON/REST APIs</div>
             </div>
+        
+            <!-- EDUCATION -->
+            <div class="section">
+                    <div class="section-title">Education</div>
+                    <div class="edu-item">
+                                <div class="edu-degree">Master of Science (M.S.), Cybersecurity Engineering</div>
+                                <div class="edu-school">University of San Diego — <em>Expected 2026</em></div>
+                                <div class="edu-date">Focus: Secure software development, threat modeling, vulnerability mitigation, application hardening</div>
+                    </div>
+                    <div class="edu-item">
+                                <div class="edu-degree">Bachelor of Technology (B.Tech), Computer Science & Engineering</div>
+                                <div class="edu-school">JSS Academy of Technical Education, Noida — <em>2012</em></div>
+                    </div>
+            </div>
+        
         </div>
-
-        <div class="section">
-            <h2 class="section-title">Education</h2>
-            <div class="education">
-                <div>
-                    <span class="degree">Master of Science (MS), Cyber Security Engineering</span> | 
-                    <span class="institution">University of San Diego</span>
-                </div>
-                <span class="duration">Expected 2026</span>
-            </div>
-            <div class="education">
-                <div>
-                    <span class="degree">Bachelor of Technology (B.Tech), Computer Science & Engineering</span> | 
-                    <span class="institution">JSS Academy of Technical Education, Noida</span>
-                </div>
-                <span class="duration">2012</span>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+    </body>
+</html>html></em></em></li></li></strong></strong></li></li></strong></strong></li></li></strong></strong></li>
+                                    </ul>
+                                                </div></p></strong></strong></p></span></span>
+    </body>
+        </style></title>
+    </head>
